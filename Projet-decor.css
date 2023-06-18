@@ -1,0 +1,38 @@
+p{
+    color:black;
+    font:size 30px;
+}
+h1{
+    color:red;
+    font: size 50px;
+}
+header{
+    color:wheat
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    background-color: orange;
+
+}
+footer{
+    font-size: italic;
+    color: black;
+    background-color: cadetblue;
+}
+.Rotorua-lake{
+    padding: 50px;
+    background-image: url(Rotorua-lake.jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+@media screen and (max-width: 1024px) {
+    .Rotorua-lake{
+        background-image: url(Rotorua-lake.jpg) cover center;
+        min-width: 400px;
+        overflow: auto;
+    }
+}
